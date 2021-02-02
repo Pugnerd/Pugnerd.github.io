@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #2F3E49;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.sed {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21px;
+  color: #909090;
+  padding: 30px 30px 200px 30px;
+}
+
+.text-containers h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 64px;
+  color: #f96400;
+  line-height: 72px;
+  width: 100%;
+  max-width: 1011px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.text-containers p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  line-height: 47px;
+  color: white;
+  width: 100%;
+  max-width: 1011px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.leftlines {
+  margin: -300px auto auto 20px;
+  min-width: 100px;
+  max-width: 495px;
+}
+
+.rightlines {
+  margin: -350px 0 180px 1570px;
+  min-width: 100px;
+  max-width: 480px;
+  max-height: 100px;
+}
+
+.van {
+  margin: 0 0 auto 370px;
+  width: 110px;
+  height: 70 px;
+}
+
+.iceland_map {
+  width: 100vw;
+  height: 691px;
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 100px 20px;
+  margin-left: 160px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: #2F3E49;
+  position: absolute;
+  z-index: -2;
+}
+
+.backgroundimg-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: calc(100vw - 24px);
+  height: calc(90vh - 24px);
+}
+
+.topbackground {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -1;
+}
+
+.btsicon {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  width: 100px;
+  height: 70px;
+}
+
+.menuicon {
+  position: absolute;
+  top: 15px;
+  right: 5px;
+  width: 80px;
+  height: 50px;
+}
+
+.headericons {
+  width: 330px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.backgroundimg-container h1 {
+  color: #2F3E49;
+  background-color: #73C8DE;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 0 20px;
+  margin: -10vh auto;
+}
+
+.text-container h2 {
+  position: relative;
+  padding: 40px 0;
+  max-width: 1000px;
+  color: #F96400;
+  margin-right: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+}
+
+.textlefticon {
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+}
+
+.badge-container {
+  width: 274px;
+  height: 274px;
+  max-width: calc(100vw - 24px);
+  max-height: calc(100vw - 24px);
+  border-radius: 50%;
+}
+
+.badge-container img {
+  width: 274px;
+  height: 274px;
+  max-width: calc(100vw - 24px);
+  max-height: calc(100vw - 24px);
+  z-index: 5;
+}
+
+.secondpicture-container {
+  position: relative;
+  margin: 100px 0;
+}
+
+.color {
+  background-color: #2f3e49;
+}
+
+.color svg {
+  position: absolute;
+  bottom: 1000px;
+  width: 2100px;
+  height: 2000px;
+}
+
+.color svg .a {
+  fill: #f96400;
+}
+
+.color svg .b {
+  fill: #f99d00;
+}
+
+.color svg .c {
+  fill: #3a646f;
+}
+
+.color svg .d {
+  fill: #73c8de;
+}
+
+.color svg .e {
+  fill: #c7e9f2;
+}
+
+.color svg .f {
+  fill: #2f3e49;
+}
+
+.color svg .g {
+  fill: #868e95;
+}
+
+.color .text-container4 {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  width: 100%;
+  max-width: 1010px;
+  padding: 0px 20px;
+  margin: 0 auto;
+  line-height: 40px;
+  font-size: 24px;
+  margin-top: 500px;
+}
+
+.color .text-container4 h4 {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 40px;
+  color: #ff5100;
+  font-size: 32px;
+}
+
+.color .img-container4 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: calc(50vw - 24px);
+  margin: 100px 0;
+}
+
+.color .img-container4 .horses {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.color .last {
+  margin-left: 80px;
+  margin-top: 15px;
+  padding: 2px 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  color: gray;
+  background-color: #f3bbc4;
+}
+/*# sourceMappingURL=style.css.map */
