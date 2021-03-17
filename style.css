@@ -6,7 +6,6 @@
 body {
 	background-color: rgb(10, 51, 251);
 }
-
 .navbar.navbar-1 .navbar-toggler-icon {
 	background-image: url('https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000');
 }
@@ -54,6 +53,8 @@ p {
 	color: rgb(255, 59, 255);
 	font-family: poppins;
 }
+
+
 @media screen and (min-width: 440px) and ( max-width: 600px) {
 	body {
 		background-color: olive;
@@ -83,7 +84,9 @@ p {
 		bottom: 30px;
 	}
 }
-@media screen and (min-width: 0px) and ( max-width: 440px) {
+
+
+@media screen and ( max-width: 440px) {
 	
 	body {
 		background-color:maroon;
