@@ -5,6 +5,7 @@
 
 body {
 	background-color: rgb(10, 51, 251);
+	min-width: 250px;
 }
 .navbar.navbar-1 .navbar-toggler-icon {
 	background-image: url('https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000');
@@ -98,7 +99,7 @@ p {
 	.h1title {
 		margin-left: 30px;
 		margin-top: 140px;
-		width: 300px;
+		width: 230px;
 	}
 	p {
 		margin-left: 30px;
